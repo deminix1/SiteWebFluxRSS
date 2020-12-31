@@ -1,0 +1,120 @@
+body{background: #9B918E;}
+
+#titre{align-content: center;}
+
+#buttonConnexion{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    margin: 5px;
+}
+
+h1{text-shadow:0 0 2px #00e92c,0 0 30px #00e92c,0px 0px 5px #00e92c, 0 0 150px #00e92c;color:#00e92c;}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr{
+    background-color: navajowhite;
+}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#container{
+    background: azure;
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    background-color: #53af57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+}
+
+
+#validationNbNews{
+    text-align: center;
+}
+
+#container h2{
+    text-align: center;
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#gauche {
+    float:left;
+    width:30%;
+    margin-left: 10%;
+    margin-right: 0%;
+}
+
+#droite {
+    float: right;
+    margin-right: 10%;
+}
+
+#droite input{
+    width: 160px;
+}
+
+#droite #changer{
+    margin-left: 10px;
+    margin-right: -30px;
+    width: 100px;
+}
+
+#selectionPage{
+    margin-left: 45%;
+    margin-top: 10px;
+
+}
+
+#ajouter1{
+    width: 200px;
+}
+
